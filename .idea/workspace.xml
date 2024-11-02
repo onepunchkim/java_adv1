@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="thread study">
-      <change afterPath="$PROJECT_DIR$/src/thread/start/ManyThreadMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/MyLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/MyLoggerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/start/InnerRunnableMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/start/InnerRunnableMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/start/InnerRunnableMainV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/start/InnerRunnableMainV4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +42,12 @@
     "Application.DaemonThreadMain.executor": "Run",
     "Application.HelloRunnableMain.executor": "Run",
     "Application.HelloThreadMain.executor": "Run",
+    "Application.InnerRunnableMainV1.executor": "Run",
+    "Application.InnerRunnableMainV2.executor": "Run",
+    "Application.InnerRunnableMainV4.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ManyThreadMainV1.executor": "Run",
+    "Application.ManyThreadMainV2.executor": "Run",
     "Application.MyLoggerMain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -59,9 +64,9 @@
       <recent name="thread.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ManyThreadMainV2">
-    <configuration name="DaemonThreadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.start.DaemonThreadMain" />
+  <component name="RunManager" selected="Application.InnerRunnableMainV4">
+    <configuration name="InnerRunnableMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.start.InnerRunnableMainV1" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
@@ -73,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloRunnableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.start.HelloRunnableMain" />
+    <configuration name="InnerRunnableMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.start.InnerRunnableMainV2" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
@@ -86,8 +91,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManyThreadMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.start.ManyThreadMainV1" />
+    <configuration name="InnerRunnableMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.start.InnerRunnableMainV3" />
+      <module name="java-adv1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InnerRunnableMainV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.start.InnerRunnableMainV4" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
@@ -112,26 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLoggerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="util.MyLoggerMain" />
-      <module name="java-adv1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InnerRunnableMainV4" />
+        <item itemvalue="Application.InnerRunnableMainV2" />
+        <item itemvalue="Application.InnerRunnableMainV3" />
+        <item itemvalue="Application.InnerRunnableMainV1" />
         <item itemvalue="Application.ManyThreadMainV2" />
-        <item itemvalue="Application.ManyThreadMainV1" />
-        <item itemvalue="Application.MyLoggerMain" />
-        <item itemvalue="Application.HelloRunnableMain" />
-        <item itemvalue="Application.DaemonThreadMain" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730540211879</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="thread study">
+      <option name="closed" value="true" />
+      <created>1730541203319</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730541203319</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
