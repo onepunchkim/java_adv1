@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="thread study">
-      <change afterPath="$PROJECT_DIR$/src/thread/start/BadThreadMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/start/DaemonThreadMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/start/HelloRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/start/HelloRunnableMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +38,7 @@
   "keyToString": {
     "Application.BadThreadMain.executor": "Run",
     "Application.DaemonThreadMain.executor": "Run",
+    "Application.HelloRunnableMain.executor": "Run",
     "Application.HelloThreadMain.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -55,7 +56,7 @@
       <recent name="thread.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DaemonThreadMain">
+  <component name="RunManager" selected="Application.HelloRunnableMain">
     <configuration name="BadThreadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.start.BadThreadMain" />
       <module name="java-adv1" />
@@ -71,6 +72,19 @@
     </configuration>
     <configuration name="DaemonThreadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.start.DaemonThreadMain" />
+      <module name="java-adv1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloRunnableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.start.HelloRunnableMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
@@ -104,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloRunnableMain" />
         <item itemvalue="Application.DaemonThreadMain" />
         <item itemvalue="Application.BadThreadMain" />
         <item itemvalue="Application.HelloThreadMain" />
@@ -151,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730453356005</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="thread study">
+      <option name="closed" value="true" />
+      <created>1730538581667</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730538581667</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
