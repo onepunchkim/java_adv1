@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="thread study">
-      <change afterPath="$PROJECT_DIR$/src/thread/control/ThreadInfoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/control/ThreadStateMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/control/CheckedExceptionMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/ThreadUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BadThreadMain.executor": "Run",
+    "Application.CheckedExceptionMain.executor": "Run",
     "Application.DaemonThreadMain.executor": "Run",
     "Application.HelloRunnableMain.executor": "Run",
     "Application.HelloThreadMain.executor": "Run",
@@ -71,13 +72,13 @@
       <recent name="thread.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadStateMain">
-    <configuration name="StartTest3Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.start.test.StartTest3Main" />
+  <component name="RunManager" selected="Application.CheckedExceptionMain">
+    <configuration name="CheckedExceptionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.control.CheckedExceptionMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.start.test.*" />
+          <option name="PATTERN" value="thread.control.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,7 +86,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartTest3Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="StartTest3Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.start.test.StartTest3Main" />
       <module name="java-adv1" />
       <extension name="coverage">
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckedExceptionMain" />
         <item itemvalue="Application.ThreadStateMain" />
         <item itemvalue="Application.ThreadInfoMain" />
         <item itemvalue="Application.StartTest4Main" />
         <item itemvalue="Application.StartTest3Main (1)" />
-        <item itemvalue="Application.StartTest3Main" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730793772549</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="thread study">
+      <option name="closed" value="true" />
+      <created>1730799425247</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730799425247</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
