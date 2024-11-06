@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="thread study">
-      <change afterPath="$PROJECT_DIR$/src/thread/control/CheckedExceptionMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/ThreadUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/control/join/JoinMainV0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/control/join/JoinMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/control/join/JoinMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/control/join/JoinMainV3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +46,10 @@
     "Application.InnerRunnableMainV1.executor": "Run",
     "Application.InnerRunnableMainV2.executor": "Run",
     "Application.InnerRunnableMainV4.executor": "Run",
+    "Application.JoinMainV0.executor": "Run",
+    "Application.JoinMainV1.executor": "Run",
+    "Application.JoinMainV2.executor": "Run",
+    "Application.JoinMainV3.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ManyThreadMainV1.executor": "Run",
     "Application.ManyThreadMainV2.executor": "Run",
@@ -68,11 +74,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="thread.control.join" />
       <recent name="thread.start.test" />
       <recent name="thread.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckedExceptionMain">
+  <component name="RunManager" selected="Application.JoinMainV3">
     <configuration name="CheckedExceptionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.control.CheckedExceptionMain" />
       <module name="java-adv1" />
@@ -86,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartTest3Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.start.test.StartTest3Main" />
+    <configuration name="JoinMainV0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.control.join.JoinMainV0" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.start.test.*" />
+          <option name="PATTERN" value="thread.control.join.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartTest4Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.start.test.StartTest4Main" />
+    <configuration name="JoinMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.control.join.JoinMainV1" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.start.test.*" />
+          <option name="PATTERN" value="thread.control.join.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadInfoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.control.ThreadInfoMain" />
+    <configuration name="JoinMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.control.join.JoinMainV2" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.control.*" />
+          <option name="PATTERN" value="thread.control.join.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadStateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.control.ThreadStateMain" />
+    <configuration name="JoinMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.control.join.JoinMainV3" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.control.*" />
+          <option name="PATTERN" value="thread.control.join.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JoinMainV3" />
+        <item itemvalue="Application.JoinMainV2" />
+        <item itemvalue="Application.JoinMainV1" />
+        <item itemvalue="Application.JoinMainV0" />
         <item itemvalue="Application.CheckedExceptionMain" />
-        <item itemvalue="Application.ThreadStateMain" />
-        <item itemvalue="Application.ThreadInfoMain" />
-        <item itemvalue="Application.StartTest4Main" />
-        <item itemvalue="Application.StartTest3Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730799425247</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="thread study">
+      <option name="closed" value="true" />
+      <created>1730879243755</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730879243755</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
