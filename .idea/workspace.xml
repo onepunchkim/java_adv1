@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="thread study">
-      <change afterPath="$PROJECT_DIR$/src/thread/control/join/JoinMainV4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/control/test/JoinTest1Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,46 +76,7 @@
       <recent name="thread.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JoinMainV4">
-    <configuration name="JoinMainV0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.control.join.JoinMainV0" />
-      <module name="java-adv1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.control.join.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JoinMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.control.join.JoinMainV1" />
-      <module name="java-adv1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.control.join.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JoinMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.control.join.JoinMainV2" />
-      <module name="java-adv1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.control.join.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.JoinTest2Main">
     <configuration name="JoinMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.control.join.JoinMainV3" />
       <module name="java-adv1" />
@@ -143,13 +103,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JoinTest1Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.control.test.JoinTest1Main" />
+      <module name="java-adv1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.control.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JoinTest1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.control.test.JoinTest1Main" />
+      <module name="java-adv1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.control.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JoinTest2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.control.test.JoinTest2Main" />
+      <module name="java-adv1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.control.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JoinTest2Main" />
+        <item itemvalue="Application.JoinTest1Main (1)" />
+        <item itemvalue="Application.JoinTest1Main" />
         <item itemvalue="Application.JoinMainV4" />
         <item itemvalue="Application.JoinMainV3" />
-        <item itemvalue="Application.JoinMainV2" />
-        <item itemvalue="Application.JoinMainV1" />
-        <item itemvalue="Application.JoinMainV0" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730884195286</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="thread study">
+      <option name="closed" value="true" />
+      <created>1730884498666</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1730884498666</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
