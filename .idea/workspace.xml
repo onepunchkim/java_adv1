@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="thread study">
-      <change afterPath="$PROJECT_DIR$/src/thread/control/test/JoinTest1Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/control/interrupt/ThreadStopMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/control/interrupt/ThreadStopMainV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,9 @@
     "Application.JoinMainV2.executor": "Run",
     "Application.JoinMainV3.executor": "Run",
     "Application.JoinMainV4.executor": "Run",
+    "Application.JoinTest1Main (1).executor": "Run",
+    "Application.JoinTest1Main.executor": "Run",
+    "Application.JoinTest2Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ManyThreadMainV1.executor": "Run",
     "Application.ManyThreadMainV2.executor": "Run",
@@ -59,6 +64,8 @@
     "Application.StartTest4Main.executor": "Run",
     "Application.ThreadInfoMain.executor": "Run",
     "Application.ThreadStateMain.executor": "Run",
+    "Application.ThreadStopMainV1.executor": "Run",
+    "Application.ThreadStopMainV2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -71,38 +78,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="thread.control.interrupt" />
+      <recent name="thread.control.test" />
       <recent name="thread.control.join" />
       <recent name="thread.start.test" />
       <recent name="thread.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JoinTest2Main">
-    <configuration name="JoinMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.control.join.JoinMainV3" />
-      <module name="java-adv1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.control.join.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JoinMainV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.control.join.JoinMainV4" />
-      <module name="java-adv1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.control.join.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThreadStopMainV2">
     <configuration name="JoinTest1Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.control.test.JoinTest1Main" />
       <module name="java-adv1" />
@@ -142,13 +125,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadStopMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.control.interrupt.ThreadStopMainV1" />
+      <module name="java-adv1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.control.interrupt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadStopMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.control.interrupt.ThreadStopMainV2" />
+      <module name="java-adv1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.control.interrupt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadStopMainV2" />
+        <item itemvalue="Application.ThreadStopMainV1" />
         <item itemvalue="Application.JoinTest2Main" />
         <item itemvalue="Application.JoinTest1Main (1)" />
         <item itemvalue="Application.JoinTest1Main" />
-        <item itemvalue="Application.JoinMainV4" />
-        <item itemvalue="Application.JoinMainV3" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730884498666</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="thread study">
+      <option name="closed" value="true" />
+      <created>1730885028437</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1730885028437</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
