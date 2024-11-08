@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="interrupt study">
-      <change afterPath="$PROJECT_DIR$/src/thread/control/yield/YieldMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="yield study" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,9 +91,9 @@
       <recent name="thread.start.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.YieldMain (2)">
-    <configuration name="MyPrinterV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.control.printer.MyPrinterV2" />
+  <component name="RunManager" selected="Application.MyPrinterV4">
+    <configuration name="MyPrinterV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.control.printer.MyPrinterV3" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyPrinterV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.control.printer.MyPrinterV3" />
+    <configuration name="MyPrinterV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.control.printer.MyPrinterV4" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
@@ -162,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyPrinterV4" />
         <item itemvalue="Application.YieldMain (2)" />
         <item itemvalue="Application.YieldMain (1)" />
         <item itemvalue="Application.YieldMain" />
         <item itemvalue="Application.MyPrinterV3" />
-        <item itemvalue="Application.MyPrinterV2" />
       </list>
     </recent_temporary>
   </component>
@@ -338,13 +335,22 @@
       <option name="project" value="LOCAL" />
       <updated>1731054039657</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="yield study">
+      <option name="closed" value="true" />
+      <created>1731055053169</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1731055053169</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="thread study" />
     <MESSAGE value="interrupt study" />
-    <option name="LAST_COMMIT_MESSAGE" value="interrupt study" />
+    <MESSAGE value="yield study" />
+    <option name="LAST_COMMIT_MESSAGE" value="yield study" />
   </component>
 </project>
