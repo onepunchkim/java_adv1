@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="interrupt study">
-      <change afterPath="$PROJECT_DIR$/src/thread/control/interrupt/ThreadStopMainV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/control/printer/MyPrinterV1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +55,7 @@
     "Application.ManyThreadMainV1.executor": "Run",
     "Application.ManyThreadMainV2.executor": "Run",
     "Application.MyLoggerMain.executor": "Run",
+    "Application.MyPrinterV1.executor": "Run",
     "Application.StartTest1Main (1).executor": "Run",
     "Application.StartTest1Main.executor": "Run",
     "Application.StartTest2Main.executor": "Run",
@@ -88,13 +89,13 @@
       <recent name="thread.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadStopMainV4 (1)">
-    <configuration name="ThreadStopMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.control.interrupt.ThreadStopMainV2" />
+  <component name="RunManager" selected="Application.MyPrinterV1">
+    <configuration name="MyPrinterV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.control.printer.MyPrinterV1" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.control.interrupt.*" />
+          <option name="PATTERN" value="thread.control.printer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyPrinterV1" />
         <item itemvalue="Application.ThreadStopMainV4 (1)" />
         <item itemvalue="Application.ThreadStopMainV4" />
         <item itemvalue="Application.ThreadStopMainV3 (1)" />
         <item itemvalue="Application.ThreadStopMainV3" />
-        <item itemvalue="Application.ThreadStopMainV2" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730971594347</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="interrupt study">
+      <option name="closed" value="true" />
+      <created>1731051689806</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1731051689806</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
