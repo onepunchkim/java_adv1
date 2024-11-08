@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="interrupt study">
-      <change afterPath="$PROJECT_DIR$/src/thread/control/printer/MyPrinterV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="thread study" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,14 +79,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="thread.control.printer" />
       <recent name="thread.control.interrupt" />
       <recent name="thread.control.test" />
       <recent name="thread.control.join" />
       <recent name="thread.start.test" />
-      <recent name="thread.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyPrinterV1">
+  <component name="RunManager" selected="Application.MyPrinterV2">
     <configuration name="MyPrinterV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.control.printer.MyPrinterV1" />
       <module name="java-adv1" />
@@ -103,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadStopMainV3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.control.interrupt.ThreadStopMainV3" />
+    <configuration name="MyPrinterV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.control.printer.MyPrinterV2" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.control.interrupt.*" />
+          <option name="PATTERN" value="thread.control.printer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadStopMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadStopMainV3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.control.interrupt.ThreadStopMainV3" />
       <module name="java-adv1" />
       <extension name="coverage">
@@ -157,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyPrinterV2" />
         <item itemvalue="Application.MyPrinterV1" />
         <item itemvalue="Application.ThreadStopMainV4 (1)" />
         <item itemvalue="Application.ThreadStopMainV4" />
         <item itemvalue="Application.ThreadStopMainV3 (1)" />
-        <item itemvalue="Application.ThreadStopMainV3" />
       </list>
     </recent_temporary>
   </component>
@@ -309,13 +306,21 @@
       <option name="project" value="LOCAL" />
       <updated>1731051689806</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="thread study">
+      <option name="closed" value="true" />
+      <created>1731053060395</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1731053060395</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <MESSAGE value="thread study" />
     <MESSAGE value="interrupt study" />
-    <option name="LAST_COMMIT_MESSAGE" value="interrupt study" />
+    <MESSAGE value="thread study" />
+    <option name="LAST_COMMIT_MESSAGE" value="thread study" />
   </component>
 </project>
