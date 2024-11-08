@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="interrupt study">
-      <change afterPath="$PROJECT_DIR$/src/thread/control/printer/MyPrinterV3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/control/printer/MyPrinterV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/control/printer/MyPrinterV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/control/yield/YieldMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,7 @@
     "Application.MyLoggerMain.executor": "Run",
     "Application.MyPrinterV1.executor": "Run",
     "Application.MyPrinterV2.executor": "Run",
+    "Application.MyPrinterV3.executor": "Run",
     "Application.StartTest1Main (1).executor": "Run",
     "Application.StartTest1Main.executor": "Run",
     "Application.StartTest2Main.executor": "Run",
@@ -71,6 +72,9 @@
     "Application.ThreadStopMainV3.executor": "Run",
     "Application.ThreadStopMainV4 (1).executor": "Run",
     "Application.ThreadStopMainV4.executor": "Run",
+    "Application.YieldMain (1).executor": "Run",
+    "Application.YieldMain (2).executor": "Run",
+    "Application.YieldMain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -90,20 +94,7 @@
       <recent name="thread.start.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyPrinterV3">
-    <configuration name="MyPrinterV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.control.printer.MyPrinterV1" />
-      <module name="java-adv1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.control.printer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.YieldMain (2)">
     <configuration name="MyPrinterV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.control.printer.MyPrinterV2" />
       <module name="java-adv1" />
@@ -130,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadStopMainV4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.control.interrupt.ThreadStopMainV4" />
+    <configuration name="YieldMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.control.yield.YieldMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.control.interrupt.*" />
+          <option name="PATTERN" value="thread.control.yield.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +134,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadStopMainV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.control.interrupt.ThreadStopMainV4" />
+    <configuration name="YieldMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.control.yield.YieldMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.control.interrupt.*" />
+          <option name="PATTERN" value="thread.control.yield.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YieldMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.control.yield.YieldMain" />
+      <module name="java-adv1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.control.yield.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.YieldMain (2)" />
+        <item itemvalue="Application.YieldMain (1)" />
+        <item itemvalue="Application.YieldMain" />
         <item itemvalue="Application.MyPrinterV3" />
         <item itemvalue="Application.MyPrinterV2" />
-        <item itemvalue="Application.MyPrinterV1" />
-        <item itemvalue="Application.ThreadStopMainV4 (1)" />
-        <item itemvalue="Application.ThreadStopMainV4" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +330,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731053702374</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="interrupt study">
+      <option name="closed" value="true" />
+      <created>1731054039657</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1731054039657</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
