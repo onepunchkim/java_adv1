@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="volatile study">
-      <change afterPath="$PROJECT_DIR$/src/thread/volatile1/VolatileCountMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/sync/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/sync/BankAccountV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/sync/BankMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/sync/WithdrawTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -36,6 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BadThreadMain.executor": "Run",
+    "Application.BankMain.executor": "Run",
     "Application.CheckedExceptionMain.executor": "Run",
     "Application.DaemonThreadMain.executor": "Run",
     "Application.HelloRunnableMain.executor": "Run",
@@ -103,7 +108,20 @@
       <recent name="thread.start.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VolatileCountMain (3)">
+  <component name="RunManager" selected="Application.BankMain">
+    <configuration name="BankMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.sync.BankMain" />
+      <module name="java-adv1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.sync.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VolatileCountMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.volatile1.VolatileCountMain" />
       <module name="java-adv1" />
@@ -156,26 +174,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileFlagMain (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.volatile1.VolatileFlagMain" />
-      <module name="java-adv1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.volatile1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BankMain" />
         <item itemvalue="Application.VolatileCountMain (3)" />
         <item itemvalue="Application.VolatileCountMain" />
         <item itemvalue="Application.VolatileCountMain (2)" />
         <item itemvalue="Application.VolatileCountMain (1)" />
-        <item itemvalue="Application.VolatileFlagMain (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -371,7 +376,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731137509818</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="volatile study">
+      <option name="closed" value="true" />
+      <created>1731402542641</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1731402542641</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
