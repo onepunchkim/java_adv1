@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="sync study">
-      <change afterPath="$PROJECT_DIR$/src/thread/sync/BankAccountV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/sync/test/SyncTest1BadMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/sync/BankAccountV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/sync/BankAccountV2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +105,7 @@
       <recent name="thread.control.join" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BankMain">
+  <component name="RunManager" selected="Application.SyncTest1Main">
     <configuration name="BankMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.sync.BankMain" />
       <module name="java-adv1" />
@@ -120,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileCountMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.volatile1.VolatileCountMain" />
+    <configuration name="SyncTest1BadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.sync.test.SyncTest1BadMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.volatile1.*" />
+          <option name="PATTERN" value="thread.sync.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileCountMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.volatile1.VolatileCountMain" />
+    <configuration name="SyncTest1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.sync.test.SyncTest1Main" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.volatile1.*" />
+          <option name="PATTERN" value="thread.sync.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SyncTest1Main" />
+        <item itemvalue="Application.SyncTest1BadMain" />
         <item itemvalue="Application.BankMain" />
         <item itemvalue="Application.VolatileCountMain (3)" />
         <item itemvalue="Application.VolatileCountMain" />
-        <item itemvalue="Application.VolatileCountMain (2)" />
-        <item itemvalue="Application.VolatileCountMain (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +397,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731487694561</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="sync study">
+      <option name="closed" value="true" />
+      <created>1731490253833</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1731490253833</updated>
+    </task>
+    <task id="LOCAL-00027" summary="sync study">
+      <option name="closed" value="true" />
+      <created>1731490596577</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1731490596577</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
