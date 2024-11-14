@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="sync study">
-      <change afterPath="$PROJECT_DIR$/src/thread/sync/lock/LockSupportMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/sync/lock/LockSupportMainV2.java" afterDir="false" />
+    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="lock study">
+      <change afterPath="$PROJECT_DIR$/src/thread/sync/BankAccountV4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/sync/BankMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/sync/BankMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,14 +102,27 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="thread.sync.lock" />
       <recent name="thread.sync" />
+      <recent name="thread.sync.lock" />
       <recent name="thread.control.printer" />
       <recent name="thread.control.interrupt" />
       <recent name="thread.control.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LockSupportMainV2">
+  <component name="RunManager" selected="Application.BankMain">
+    <configuration name="BankMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.sync.BankMain" />
+      <module name="java-adv1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.sync.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LockSupportMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.sync.lock.LockSupportMainV1" />
       <module name="java-adv1" />
@@ -129,19 +142,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="thread.sync.lock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SyncTest1BadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.sync.test.SyncTest1BadMain" />
-      <module name="java-adv1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.sync.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BankMain" />
         <item itemvalue="Application.LockSupportMainV2" />
         <item itemvalue="Application.LockSupportMainV1" />
         <item itemvalue="Application.SyncTest2Main" />
         <item itemvalue="Application.SyncTest1Main" />
-        <item itemvalue="Application.SyncTest1BadMain" />
       </list>
     </recent_temporary>
   </component>
@@ -425,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731569827796</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="lock study">
+      <option name="closed" value="true" />
+      <created>1731574492990</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1731574492990</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -435,6 +443,7 @@
     <MESSAGE value="yield study" />
     <MESSAGE value="volatile study" />
     <MESSAGE value="sync study" />
-    <option name="LAST_COMMIT_MESSAGE" value="sync study" />
+    <MESSAGE value="lock study" />
+    <option name="LAST_COMMIT_MESSAGE" value="lock study" />
   </component>
 </project>
