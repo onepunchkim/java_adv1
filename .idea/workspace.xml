@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="lock study" />
+    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="lock study">
+      <change afterPath="$PROJECT_DIR$/src/thread/sync/BankAccountV6.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -437,7 +439,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731577887095</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="lock study">
+      <option name="closed" value="true" />
+      <created>1731578344652</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1731578344652</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
