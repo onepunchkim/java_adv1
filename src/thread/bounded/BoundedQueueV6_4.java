@@ -15,12 +15,12 @@ public class BoundedQueueV6_4 implements BoundedQueue{
 
     @Override
     public void put(String data) {
-        queue.add(data);
+        queue.add(data); //java.lang.IllegalStateException: Queue full
     }
 
     @Override
     public String take() {
-        return queue.remove();
+        return queue.remove(); //java.lang.NoSuchElementException
     }
 
     @Override
