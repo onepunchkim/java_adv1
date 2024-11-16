@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="bounded study">
-      <change afterPath="$PROJECT_DIR$/src/thread/bounded/BoundedQueueV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/bounded/BoundedQueueV4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/bounded/BoundedMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/bounded/BoundedMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,72 +35,72 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BadThreadMain.executor": "Run",
-    "Application.BankMain.executor": "Run",
-    "Application.BoundedMain.executor": "Run",
-    "Application.CheckedExceptionMain.executor": "Run",
-    "Application.DaemonThreadMain.executor": "Run",
-    "Application.HelloRunnableMain.executor": "Run",
-    "Application.HelloThreadMain.executor": "Run",
-    "Application.InnerRunnableMainV1.executor": "Run",
-    "Application.InnerRunnableMainV2.executor": "Run",
-    "Application.InnerRunnableMainV4.executor": "Run",
-    "Application.JoinMainV0.executor": "Run",
-    "Application.JoinMainV1.executor": "Run",
-    "Application.JoinMainV2.executor": "Run",
-    "Application.JoinMainV3.executor": "Run",
-    "Application.JoinMainV4.executor": "Run",
-    "Application.JoinTest1Main (1).executor": "Run",
-    "Application.JoinTest1Main.executor": "Run",
-    "Application.JoinTest2Main.executor": "Run",
-    "Application.LockSupportMainV1.executor": "Run",
-    "Application.LockSupportMainV2.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.ManyThreadMainV1.executor": "Run",
-    "Application.ManyThreadMainV2.executor": "Run",
-    "Application.MyLoggerMain.executor": "Run",
-    "Application.MyPrinterV1.executor": "Run",
-    "Application.MyPrinterV2.executor": "Run",
-    "Application.MyPrinterV3.executor": "Run",
-    "Application.MyPrinterV4.executor": "Run",
-    "Application.StartTest1Main (1).executor": "Run",
-    "Application.StartTest1Main.executor": "Run",
-    "Application.StartTest2Main.executor": "Run",
-    "Application.StartTest3Main (1).executor": "Run",
-    "Application.StartTest3Main.executor": "Run",
-    "Application.StartTest4Main.executor": "Run",
-    "Application.SyncTest2Main.executor": "Run",
-    "Application.ThreadInfoMain.executor": "Run",
-    "Application.ThreadStateMain.executor": "Run",
-    "Application.ThreadStopMainV1.executor": "Run",
-    "Application.ThreadStopMainV2.executor": "Run",
-    "Application.ThreadStopMainV3 (1).executor": "Run",
-    "Application.ThreadStopMainV3.executor": "Run",
-    "Application.ThreadStopMainV4 (1).executor": "Run",
-    "Application.ThreadStopMainV4.executor": "Run",
-    "Application.VolatileCountMain (1).executor": "Run",
-    "Application.VolatileCountMain (2).executor": "Run",
-    "Application.VolatileCountMain (3).executor": "Run",
-    "Application.VolatileCountMain.executor": "Run",
-    "Application.VolatileFlagMain (1).executor": "Run",
-    "Application.VolatileFlagMain (2).executor": "Run",
-    "Application.VolatileFlagMain (3).executor": "Run",
-    "Application.VolatileFlagMain.executor": "Run",
-    "Application.YieldMain (1).executor": "Run",
-    "Application.YieldMain (2).executor": "Run",
-    "Application.YieldMain.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/gurwl/java_practice/java-adv1/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BadThreadMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BoundedMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckedExceptionMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DaemonThreadMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloRunnableMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloThreadMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InnerRunnableMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InnerRunnableMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InnerRunnableMainV4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoinMainV0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoinMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoinMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoinMainV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoinMainV4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoinTest1Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoinTest1Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoinTest2Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LockSupportMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LockSupportMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ManyThreadMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ManyThreadMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyLoggerMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyPrinterV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyPrinterV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyPrinterV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyPrinterV4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StartTest1Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.StartTest1Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StartTest2Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StartTest3Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.StartTest3Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StartTest4Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SyncTest2Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadInfoMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadStateMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadStopMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadStopMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadStopMainV3 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadStopMainV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadStopMainV4 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadStopMainV4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VolatileCountMain (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.VolatileCountMain (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.VolatileCountMain (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.VolatileCountMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VolatileFlagMain (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.VolatileFlagMain (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.VolatileFlagMain (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.VolatileFlagMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.YieldMain (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.YieldMain (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.YieldMain.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/gurwl/java_practice/java-adv1/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="thread.bounded" />
@@ -472,7 +474,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731661555063</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="bounded study">
+      <option name="closed" value="true" />
+      <created>1731662071227</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1731662071227</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
