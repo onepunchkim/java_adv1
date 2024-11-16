@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="bounded study">
-      <change afterPath="$PROJECT_DIR$/src/thread/bounded/BoundedQueueV6_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/bounded/BoundedQueueV6_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/bounded/BoundedQueueV6_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/thread/bounded/BoundedMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/bounded/BoundedMain.java" afterDir="false" />
     </list>
@@ -498,7 +499,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731743771593</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="bounded study">
+      <option name="closed" value="true" />
+      <created>1731747756836</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1731747756836</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
