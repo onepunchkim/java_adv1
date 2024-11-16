@@ -20,7 +20,7 @@ public class BoundedQueueV6_4 implements BoundedQueue{
 
     @Override
     public String take() {
-        return queue.remove(); //java.lang.NoSuchElementException
+        return queue.remove(); //java.util.NoSuchElementException
     }
 
     @Override
