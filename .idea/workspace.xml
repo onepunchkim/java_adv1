@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="cas study">
+      <change afterPath="$PROJECT_DIR$/src/thread/cas/increment/IncrementPerformanceMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +43,7 @@
     "Application.DaemonThreadMain.executor": "Run",
     "Application.HelloRunnableMain.executor": "Run",
     "Application.HelloThreadMain.executor": "Run",
+    "Application.IncrementPerformanceMain.executor": "Run",
     "Application.IncrementThreadMain.executor": "Run",
     "Application.InnerRunnableMainV1.executor": "Run",
     "Application.InnerRunnableMainV2.executor": "Run",
@@ -109,7 +111,7 @@
       <recent name="thread.control.interrupt" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IncrementThreadMain">
+  <component name="RunManager" selected="Application.IncrementPerformanceMain">
     <configuration name="BankMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.sync.BankMain" />
       <module name="java-adv1" />
@@ -136,8 +138,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IncrementThreadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.cas.increment.IncrementThreadMain" />
+    <configuration name="IncrementPerformanceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.cas.increment.IncrementPerformanceMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
@@ -149,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockSupportMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.sync.lock.LockSupportMainV1" />
+    <configuration name="IncrementThreadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.cas.increment.IncrementThreadMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.sync.lock.*" />
+          <option name="PATTERN" value="thread.cas.increment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IncrementPerformanceMain" />
         <item itemvalue="Application.IncrementThreadMain" />
         <item itemvalue="Application.BoundedMain" />
         <item itemvalue="Application.BankMain" />
         <item itemvalue="Application.LockSupportMainV2" />
-        <item itemvalue="Application.LockSupportMainV1" />
       </list>
     </recent_temporary>
   </component>
@@ -545,7 +547,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731828933724</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="cas study">
+      <option name="closed" value="true" />
+      <created>1731832085801</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1731832085801</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
