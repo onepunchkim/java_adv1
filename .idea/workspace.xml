@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="cas study">
-      <change afterPath="$PROJECT_DIR$/src/thread/cas/CasMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/cas/CasMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/cas/increment/CasMainV3.java" afterDir="false" />
+    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="bounded study">
+      <change afterPath="$PROJECT_DIR$/src/thread/cas/spinlock/SpinLockBad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/cas/spinlock/SpinLockMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +30,7 @@
 }</component>
   <component name="ProjectId" id="2oCm6rmLxjALHlUu7ARIdHgY6Hz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -41,15 +41,10 @@
     "Application.BadThreadMain.executor": "Run",
     "Application.BankMain.executor": "Run",
     "Application.BoundedMain.executor": "Run",
-    "Application.CasMainV1.executor": "Run",
-    "Application.CasMainV2.executor": "Run",
-    "Application.CasMainV3.executor": "Run",
     "Application.CheckedExceptionMain.executor": "Run",
     "Application.DaemonThreadMain.executor": "Run",
     "Application.HelloRunnableMain.executor": "Run",
     "Application.HelloThreadMain.executor": "Run",
-    "Application.IncrementPerformanceMain.executor": "Run",
-    "Application.IncrementThreadMain.executor": "Run",
     "Application.InnerRunnableMainV1.executor": "Run",
     "Application.InnerRunnableMainV2.executor": "Run",
     "Application.InnerRunnableMainV4.executor": "Run",
@@ -71,6 +66,7 @@
     "Application.MyPrinterV2.executor": "Run",
     "Application.MyPrinterV3.executor": "Run",
     "Application.MyPrinterV4.executor": "Run",
+    "Application.SpinLockMain.executor": "Run",
     "Application.StartTest1Main (1).executor": "Run",
     "Application.StartTest1Main.executor": "Run",
     "Application.StartTest2Main.executor": "Run",
@@ -116,13 +112,13 @@
       <recent name="thread.control.interrupt" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CasMainV3">
-    <configuration name="CasMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.cas.CasMainV1" />
+  <component name="RunManager" selected="Application.SpinLockMain">
+    <configuration name="BankMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.sync.BankMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.cas.*" />
+          <option name="PATTERN" value="thread.sync.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CasMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.cas.CasMainV2" />
+    <configuration name="BoundedMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.bounded.BoundedMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.cas.*" />
+          <option name="PATTERN" value="thread.bounded.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CasMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.cas.CasMainV3" />
+    <configuration name="LockSupportMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.sync.lock.LockSupportMainV1" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.cas.*" />
+          <option name="PATTERN" value="thread.sync.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IncrementPerformanceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.cas.increment.IncrementPerformanceMain" />
+    <configuration name="LockSupportMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.sync.lock.LockSupportMainV2" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.cas.*" />
+          <option name="PATTERN" value="thread.sync.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IncrementThreadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.cas.increment.IncrementThreadMain" />
+    <configuration name="SpinLockMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.cas.spinlock.SpinLockMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.cas.*" />
+          <option name="PATTERN" value="thread.cas.spinlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CasMainV3" />
-        <item itemvalue="Application.CasMainV2" />
-        <item itemvalue="Application.CasMainV1" />
-        <item itemvalue="Application.IncrementPerformanceMain" />
-        <item itemvalue="Application.IncrementThreadMain" />
+        <item itemvalue="Application.SpinLockMain" />
+        <item itemvalue="Application.BoundedMain" />
+        <item itemvalue="Application.BankMain" />
+        <item itemvalue="Application.LockSupportMainV2" />
+        <item itemvalue="Application.LockSupportMainV1" />
       </list>
     </recent_temporary>
   </component>
@@ -520,55 +516,7 @@
       <option name="project" value="LOCAL" />
       <updated>1731749413014</updated>
     </task>
-    <task id="LOCAL-00040" summary="bounded study">
-      <option name="closed" value="true" />
-      <created>1731749828185</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1731749828185</updated>
-    </task>
-    <task id="LOCAL-00041" summary="bounded study">
-      <option name="closed" value="true" />
-      <created>1731749875447</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1731749875447</updated>
-    </task>
-    <task id="LOCAL-00042" summary="cas study">
-      <option name="closed" value="true" />
-      <created>1731828684849</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1731828684849</updated>
-    </task>
-    <task id="LOCAL-00043" summary="cas study">
-      <option name="closed" value="true" />
-      <created>1731828933724</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1731828933724</updated>
-    </task>
-    <task id="LOCAL-00044" summary="cas study">
-      <option name="closed" value="true" />
-      <created>1731832085801</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1731832085801</updated>
-    </task>
-    <task id="LOCAL-00045" summary="cas study">
-      <option name="closed" value="true" />
-      <created>1731833786187</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1731833786187</updated>
-    </task>
-    <option name="localTasksCounter" value="46" />
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -580,7 +528,6 @@
     <MESSAGE value="sync study" />
     <MESSAGE value="lock study" />
     <MESSAGE value="bounded study" />
-    <MESSAGE value="cas study" />
-    <option name="LAST_COMMIT_MESSAGE" value="cas study" />
+    <option name="LAST_COMMIT_MESSAGE" value="bounded study" />
   </component>
 </project>
