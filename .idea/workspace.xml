@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="bounded study">
-      <change afterPath="$PROJECT_DIR$/src/thread/cas/spinlock/SpinLockBad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/cas/spinlock/SpinLockMain.java" afterDir="false" />
+    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="cas study">
+      <change afterPath="$PROJECT_DIR$/src/thread/cas/spinlock/SpinLock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/cas/spinlock/SpinLockMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/cas/spinlock/SpinLockMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +66,7 @@
     "Application.MyPrinterV2.executor": "Run",
     "Application.MyPrinterV3.executor": "Run",
     "Application.MyPrinterV4.executor": "Run",
+    "Application.SpinLockMain (1).executor": "Run",
     "Application.SpinLockMain.executor": "Run",
     "Application.StartTest1Main (1).executor": "Run",
     "Application.StartTest1Main.executor": "Run",
@@ -105,14 +106,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="thread.cas.spinlock" />
       <recent name="thread.bounded" />
       <recent name="thread.sync" />
       <recent name="thread.sync.lock" />
       <recent name="thread.control.printer" />
-      <recent name="thread.control.interrupt" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpinLockMain">
+  <component name="RunManager" selected="Application.SpinLockMain (1)">
     <configuration name="BankMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.sync.BankMain" />
       <module name="java-adv1" />
@@ -139,8 +140,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockSupportMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.sync.lock.LockSupportMainV1" />
+    <configuration name="LockSupportMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.sync.lock.LockSupportMainV2" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
@@ -152,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockSupportMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.sync.lock.LockSupportMainV2" />
+    <configuration name="SpinLockMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.cas.spinlock.SpinLockMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.sync.lock.*" />
+          <option name="PATTERN" value="thread.cas.spinlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpinLockMain (1)" />
         <item itemvalue="Application.SpinLockMain" />
         <item itemvalue="Application.BoundedMain" />
         <item itemvalue="Application.BankMain" />
         <item itemvalue="Application.LockSupportMainV2" />
-        <item itemvalue="Application.LockSupportMainV1" />
       </list>
     </recent_temporary>
   </component>
@@ -516,7 +517,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731749413014</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="cas study">
+      <option name="closed" value="true" />
+      <created>1731917818446</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1731917818446</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -528,6 +537,7 @@
     <MESSAGE value="sync study" />
     <MESSAGE value="lock study" />
     <MESSAGE value="bounded study" />
-    <option name="LAST_COMMIT_MESSAGE" value="bounded study" />
+    <MESSAGE value="cas study" />
+    <option name="LAST_COMMIT_MESSAGE" value="cas study" />
   </component>
 </project>
