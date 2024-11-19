@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="collection study">
-      <change afterPath="$PROJECT_DIR$/src/thread/collection/simple/list/SyncProxyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/collection/java/SynchronizedListMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/collection/simple/SimpleListMainV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/collection/simple/SimpleListMainV2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +81,7 @@
     "Application.StartTest3Main.executor": "Run",
     "Application.StartTest4Main.executor": "Run",
     "Application.SyncTest2Main.executor": "Run",
+    "Application.SynchronizedListMain.executor": "Run",
     "Application.ThreadInfoMain.executor": "Run",
     "Application.ThreadStateMain.executor": "Run",
     "Application.ThreadStopMainV1.executor": "Run",
@@ -120,7 +120,7 @@
       <recent name="thread.control.printer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleListMainV2">
+  <component name="RunManager" selected="Application.SynchronizedListMain">
     <configuration name="SimpleListMainV0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.collection.simple.SimpleListMainV0" />
       <module name="java-adv1" />
@@ -173,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpinLockMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.cas.spinlock.SpinLockMain" />
+    <configuration name="SynchronizedListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.collection.java.SynchronizedListMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.cas.spinlock.*" />
+          <option name="PATTERN" value="thread.collection.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SynchronizedListMain" />
         <item itemvalue="Application.SimpleListMainV2" />
         <item itemvalue="Application.SimpleListMainV2 (1)" />
         <item itemvalue="Application.SimpleListMainV1" />
         <item itemvalue="Application.SimpleListMainV0" />
-        <item itemvalue="Application.SpinLockMain" />
       </list>
     </recent_temporary>
   </component>
@@ -588,7 +588,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732008265597</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="collection study">
+      <option name="closed" value="true" />
+      <created>1732009131314</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1732009131314</updated>
+    </task>
+    <task id="LOCAL-00049" summary="collection study">
+      <option name="closed" value="true" />
+      <created>1732009246020</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1732009246020</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
