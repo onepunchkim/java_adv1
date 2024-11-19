@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="cas study">
-      <change afterPath="$PROJECT_DIR$/src/thread/collection/simple/SimpleListMainV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="collection study">
+      <change afterPath="$PROJECT_DIR$/src/thread/collection/simple/list/SyncList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,11 +111,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="thread.collection.simple.list" />
       <recent name="thread.bounded" />
       <recent name="thread.sync" />
       <recent name="thread.sync.lock" />
       <recent name="thread.control.printer" />
-      <recent name="thread.control.interrupt" />
     </key>
   </component>
   <component name="RunManager" selected="Application.SimpleListMainV2">
@@ -571,7 +570,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731833786187</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="collection study">
+      <option name="closed" value="true" />
+      <created>1732007734172</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1732007734172</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -584,6 +591,7 @@
     <MESSAGE value="lock study" />
     <MESSAGE value="bounded study" />
     <MESSAGE value="cas study" />
-    <option name="LAST_COMMIT_MESSAGE" value="cas study" />
+    <MESSAGE value="collection study" />
+    <option name="LAST_COMMIT_MESSAGE" value="collection study" />
   </component>
 </project>
