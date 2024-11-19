@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="collection study">
-      <change afterPath="$PROJECT_DIR$/src/thread/collection/simple/list/SyncList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/collection/simple/list/SyncProxyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/collection/simple/SimpleListMainV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/collection/simple/SimpleListMainV2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -578,7 +580,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732007734172</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="collection study">
+      <option name="closed" value="true" />
+      <created>1732008265597</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1732008265597</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
