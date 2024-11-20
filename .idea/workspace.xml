@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="collection study">
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/ExecutorUtils.java" afterDir="false" />
+    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="executor study">
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/ExecutorBasicMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/RunnableTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +45,7 @@
     "Application.CasMainV3.executor": "Run",
     "Application.CheckedExceptionMain.executor": "Run",
     "Application.DaemonThreadMain.executor": "Run",
+    "Application.ExecutorBasicMain.executor": "Run",
     "Application.HelloRunnableMain.executor": "Run",
     "Application.HelloThreadMain.executor": "Run",
     "Application.IncrementPerformanceMain.executor": "Run",
@@ -123,7 +125,20 @@
       <recent name="thread.control.printer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MapMain">
+  <component name="RunManager" selected="Application.ExecutorBasicMain">
+    <configuration name="ExecutorBasicMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.ExecutorBasicMain" />
+      <module name="java-adv1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.executor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.collection.java.ListMain" />
       <module name="java-adv1" />
@@ -163,19 +178,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleListMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.collection.simple.SimpleListMainV2" />
-      <module name="java-adv1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.collection.simple.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SynchronizedListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.collection.java.SynchronizedListMain" />
       <module name="java-adv1" />
@@ -191,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExecutorBasicMain" />
         <item itemvalue="Application.MapMain" />
         <item itemvalue="Application.SetMain" />
         <item itemvalue="Application.ListMain" />
         <item itemvalue="Application.SynchronizedListMain" />
-        <item itemvalue="Application.SimpleListMainV2" />
       </list>
     </recent_temporary>
   </component>
@@ -214,14 +216,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730381762106</updated>
-    </task>
-    <task id="LOCAL-00003" summary="thread study">
-      <option name="closed" value="true" />
-      <created>1730453356005</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1730453356005</updated>
     </task>
     <task id="LOCAL-00004" summary="thread study">
       <option name="closed" value="true" />
@@ -607,7 +601,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732086081376</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="executor study">
+      <option name="closed" value="true" />
+      <created>1732094315466</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1732094315466</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -621,6 +623,7 @@
     <MESSAGE value="bounded study" />
     <MESSAGE value="cas study" />
     <MESSAGE value="collection study" />
-    <option name="LAST_COMMIT_MESSAGE" value="collection study" />
+    <MESSAGE value="executor study" />
+    <option name="LAST_COMMIT_MESSAGE" value="executor study" />
   </component>
 </project>
