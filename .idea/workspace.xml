@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="executor study">
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/ExecutorBasicMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/RunnableTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/RunnableMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +72,8 @@
     "Application.MyPrinterV2.executor": "Run",
     "Application.MyPrinterV3.executor": "Run",
     "Application.MyPrinterV4.executor": "Run",
+    "Application.RunnableMain (1).executor": "Run",
+    "Application.RunnableMain.executor": "Run",
     "Application.SetMain.executor": "Run",
     "Application.SimpleListMainV0.executor": "Run",
     "Application.SimpleListMainV1.executor": "Run",
@@ -125,9 +126,9 @@
       <recent name="thread.control.printer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExecutorBasicMain">
-    <configuration name="ExecutorBasicMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.executor.ExecutorBasicMain" />
+  <component name="RunManager" selected="Application.RunnableMain (4)">
+    <configuration name="RunnableMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.RunnableMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
@@ -139,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.collection.java.ListMain" />
+    <configuration name="RunnableMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.RunnableMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.collection.java.*" />
+          <option name="PATTERN" value="thread.executor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.collection.java.MapMain" />
+    <configuration name="RunnableMain (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.RunnableMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.collection.java.*" />
+          <option name="PATTERN" value="thread.executor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.collection.java.SetMain" />
+    <configuration name="RunnableMain (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.RunnableMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.collection.java.*" />
+          <option name="PATTERN" value="thread.executor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.collection.java.SynchronizedListMain" />
+    <configuration name="RunnableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.RunnableMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.collection.java.*" />
+          <option name="PATTERN" value="thread.executor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExecutorBasicMain" />
-        <item itemvalue="Application.MapMain" />
-        <item itemvalue="Application.SetMain" />
-        <item itemvalue="Application.ListMain" />
-        <item itemvalue="Application.SynchronizedListMain" />
+        <item itemvalue="Application.RunnableMain (4)" />
+        <item itemvalue="Application.RunnableMain (3)" />
+        <item itemvalue="Application.RunnableMain (2)" />
+        <item itemvalue="Application.RunnableMain (1)" />
+        <item itemvalue="Application.RunnableMain" />
       </list>
     </recent_temporary>
   </component>
@@ -216,14 +217,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730381762106</updated>
-    </task>
-    <task id="LOCAL-00004" summary="thread study">
-      <option name="closed" value="true" />
-      <created>1730538581667</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1730538581667</updated>
     </task>
     <task id="LOCAL-00005" summary="thread study">
       <option name="closed" value="true" />
@@ -609,7 +602,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732094315466</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="executor study">
+      <option name="closed" value="true" />
+      <created>1732095620381</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1732095620381</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
