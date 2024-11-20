@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="collection study">
-      <change afterPath="$PROJECT_DIR$/src/thread/collection/java/SynchronizedListMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/collection/java/ListMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/collection/java/MapMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/collection/java/SetMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,16 +61,19 @@
     "Application.JoinTest1Main (1).executor": "Run",
     "Application.JoinTest1Main.executor": "Run",
     "Application.JoinTest2Main.executor": "Run",
+    "Application.ListMain.executor": "Run",
     "Application.LockSupportMainV1.executor": "Run",
     "Application.LockSupportMainV2.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ManyThreadMainV1.executor": "Run",
     "Application.ManyThreadMainV2.executor": "Run",
+    "Application.MapMain.executor": "Run",
     "Application.MyLoggerMain.executor": "Run",
     "Application.MyPrinterV1.executor": "Run",
     "Application.MyPrinterV2.executor": "Run",
     "Application.MyPrinterV3.executor": "Run",
     "Application.MyPrinterV4.executor": "Run",
+    "Application.SetMain.executor": "Run",
     "Application.SimpleListMainV0.executor": "Run",
     "Application.SimpleListMainV1.executor": "Run",
     "Application.SimpleListMainV2 (1).executor": "Run",
@@ -120,13 +125,13 @@
       <recent name="thread.control.printer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SynchronizedListMain">
-    <configuration name="SimpleListMainV0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.collection.simple.SimpleListMainV0" />
+  <component name="RunManager" selected="Application.MapMain">
+    <configuration name="ListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.collection.java.ListMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.collection.simple.*" />
+          <option name="PATTERN" value="thread.collection.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleListMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.collection.simple.SimpleListMainV1" />
+    <configuration name="MapMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.collection.java.MapMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.collection.simple.*" />
+          <option name="PATTERN" value="thread.collection.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleListMainV2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.collection.simple.SimpleListMainV2" />
+    <configuration name="SetMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.collection.java.SetMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.collection.simple.*" />
+          <option name="PATTERN" value="thread.collection.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapMain" />
+        <item itemvalue="Application.SetMain" />
+        <item itemvalue="Application.ListMain" />
         <item itemvalue="Application.SynchronizedListMain" />
         <item itemvalue="Application.SimpleListMainV2" />
-        <item itemvalue="Application.SimpleListMainV2 (1)" />
-        <item itemvalue="Application.SimpleListMainV1" />
-        <item itemvalue="Application.SimpleListMainV0" />
       </list>
     </recent_temporary>
   </component>
@@ -211,14 +216,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730381762106</updated>
-    </task>
-    <task id="LOCAL-00001" summary="test">
-      <option name="closed" value="true" />
-      <created>1730381846541</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1730381846541</updated>
     </task>
     <task id="LOCAL-00002" summary="test">
       <option name="closed" value="true" />
@@ -604,7 +601,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732009246020</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="collection study">
+      <option name="closed" value="true" />
+      <created>1732009999454</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1732009999455</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
