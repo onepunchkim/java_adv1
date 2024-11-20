@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="collection study">
-      <change afterPath="$PROJECT_DIR$/src/thread/collection/java/ListMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/collection/java/MapMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/collection/java/SetMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/ExecutorUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -216,14 +214,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730381762106</updated>
-    </task>
-    <task id="LOCAL-00002" summary="test">
-      <option name="closed" value="true" />
-      <created>1730382083278</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1730382083278</updated>
     </task>
     <task id="LOCAL-00003" summary="thread study">
       <option name="closed" value="true" />
@@ -609,7 +599,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732009999455</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="collection study">
+      <option name="closed" value="true" />
+      <created>1732086081374</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1732086081376</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
