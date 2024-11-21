@@ -22,6 +22,8 @@ public class SumTaskMainV2 {
         int sumAll = sum1 + sum2;
         log("task1 + task2 = " + sumAll);
         log("End");
+
+        es.close();
     }
 
     static class SumTask implements Callable<Integer> {
