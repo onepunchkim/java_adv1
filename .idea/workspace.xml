@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="future study">
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/FutureCancelMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +48,7 @@
     "Application.CheckedExceptionMain.executor": "Run",
     "Application.DaemonThreadMain.executor": "Run",
     "Application.ExecutorBasicMain.executor": "Run",
+    "Application.FutureCancelMain.executor": "Run",
     "Application.HelloRunnableMain.executor": "Run",
     "Application.HelloThreadMain.executor": "Run",
     "Application.IncrementPerformanceMain.executor": "Run",
@@ -93,6 +95,7 @@
     "Application.StartTest4Main.executor": "Run",
     "Application.SumTaskMainV1.executor": "Run",
     "Application.SumTaskMainV2.executor": "Run",
+    "Application.SumTaskMainV2_Bad.executor": "Run",
     "Application.SyncTest2Main.executor": "Run",
     "Application.SynchronizedListMain.executor": "Run",
     "Application.ThreadInfoMain.executor": "Run",
@@ -133,9 +136,9 @@
       <recent name="thread.sync.lock" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumTaskMainV2_Bad">
-    <configuration name="CallableMainV1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.executor.future.CallableMainV1" />
+  <component name="RunManager" selected="Application.FutureCancelMain">
+    <configuration name="CallableMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.future.CallableMainV2" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +150,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CallableMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.executor.future.CallableMainV2" />
+    <configuration name="FutureCancelMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.future.FutureCancelMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
@@ -253,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FutureCancelMain" />
         <item itemvalue="Application.SumTaskMainV2_Bad" />
         <item itemvalue="Application.SumTaskMainV2" />
         <item itemvalue="Application.SumTaskMainV1" />
         <item itemvalue="Application.CallableMainV2" />
-        <item itemvalue="Application.CallableMainV1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -276,14 +279,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730381762106</updated>
-    </task>
-    <task id="LOCAL-00011" summary="thread study">
-      <option name="closed" value="true" />
-      <created>1730884195286</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1730884195286</updated>
     </task>
     <task id="LOCAL-00012" summary="thread study">
       <option name="closed" value="true" />
@@ -669,7 +664,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732180854160</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="future study">
+      <option name="closed" value="true" />
+      <created>1732181426503</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1732181426503</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
