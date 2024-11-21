@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="executor study">
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/CallableMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/CallableMainV2.java" afterDir="false" />
+    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="future study">
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/SumTaskMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/SumTaskMainV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/executor/future/CallableMainV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/executor/future/CallableMainV2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +43,7 @@
     "Application.BoundedMain.executor": "Run",
     "Application.CallableMainV1 (1).executor": "Run",
     "Application.CallableMainV1.executor": "Run",
+    "Application.CallableMainV2.executor": "Run",
     "Application.CasMainV1.executor": "Run",
     "Application.CasMainV2.executor": "Run",
     "Application.CasMainV3.executor": "Run",
@@ -92,6 +94,7 @@
     "Application.StartTest3Main (1).executor": "Run",
     "Application.StartTest3Main.executor": "Run",
     "Application.StartTest4Main.executor": "Run",
+    "Application.SumTaskMainV1.executor": "Run",
     "Application.SyncTest2Main.executor": "Run",
     "Application.SynchronizedListMain.executor": "Run",
     "Application.ThreadInfoMain.executor": "Run",
@@ -125,14 +128,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="thread.executor.future" />
       <recent name="thread.collection.simple.list" />
       <recent name="thread.bounded" />
       <recent name="thread.sync" />
       <recent name="thread.sync.lock" />
-      <recent name="thread.control.printer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CallableMainV2">
+  <component name="RunManager" selected="Application.SumTaskMainV2">
     <configuration name="CallableMainV1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.executor.future.CallableMainV1" />
       <module name="java-adv1" />
@@ -172,25 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnableMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.executor.RunnableMain" />
+    <configuration name="RunnableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.future.RunnableMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.executor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunnableMain (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.executor.RunnableMain" />
-      <module name="java-adv1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.executor.*" />
+          <option name="PATTERN" value="thread.executor.future.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,8 +227,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.executor.future.RunnableMain" />
+    <configuration name="SumTaskMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.future.SumTaskMainV1" />
+      <module name="java-adv1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.executor.future.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumTaskMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.future.SumTaskMainV2" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
@@ -252,11 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumTaskMainV2" />
+        <item itemvalue="Application.SumTaskMainV1" />
         <item itemvalue="Application.CallableMainV2" />
         <item itemvalue="Application.CallableMainV1 (1)" />
         <item itemvalue="Application.CallableMainV1" />
-        <item itemvalue="Application.RunnableMain (3)" />
-        <item itemvalue="Application.RunnableMain (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -275,14 +278,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730381762106</updated>
-    </task>
-    <task id="LOCAL-00008" summary="thread study">
-      <option name="closed" value="true" />
-      <created>1730793772549</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1730793772549</updated>
     </task>
     <task id="LOCAL-00009" summary="thread study">
       <option name="closed" value="true" />
@@ -668,7 +663,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732096375358</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="future study">
+      <option name="closed" value="true" />
+      <created>1732177926207</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1732177926207</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -683,6 +686,7 @@
     <MESSAGE value="cas study" />
     <MESSAGE value="collection study" />
     <MESSAGE value="executor study" />
-    <option name="LAST_COMMIT_MESSAGE" value="executor study" />
+    <MESSAGE value="future study" />
+    <option name="LAST_COMMIT_MESSAGE" value="future study" />
   </component>
 </project>

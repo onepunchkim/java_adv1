@@ -2,7 +2,6 @@ package thread.executor.future;
 
 import java.util.Random;
 import java.util.concurrent.*;
-
 import static util.MyLogger.log;
 import static util.ThreadUtils.sleep;
 
