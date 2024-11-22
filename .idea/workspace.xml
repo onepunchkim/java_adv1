@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="future study" />
+    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="future study">
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/test/OldOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +58,7 @@
     "Application.InnerRunnableMainV2.executor": "Run",
     "Application.InnerRunnableMainV4.executor": "Run",
     "Application.InvokeAllMain.executor": "Run",
+    "Application.InvokeAnyMain.executor": "Run",
     "Application.JoinMainV0.executor": "Run",
     "Application.JoinMainV1.executor": "Run",
     "Application.JoinMainV2.executor": "Run",
@@ -135,7 +139,7 @@
       <recent name="thread.sync.lock" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InvokeAnyMain">
+  <component name="RunManager" selected="Application.OldOrderServiceMain">
     <configuration name="FutureCancelMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.executor.future.FutureCancelMain" />
       <module name="java-adv1" />
@@ -188,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.executor.future.RunnableMain" />
+    <configuration name="OldOrderServiceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.test.OldOrderServiceMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.executor.future.*" />
+          <option name="PATTERN" value="thread.executor.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,8 +231,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumTaskMainV2_Bad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.executor.future.SumTaskMainV2_Bad" />
+    <configuration name="RunnableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.future.RunnableMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
@@ -242,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OldOrderServiceMain" />
         <item itemvalue="Application.InvokeAnyMain" />
         <item itemvalue="Application.InvokeAllMain" />
         <item itemvalue="Application.FutureExceptionMain" />
         <item itemvalue="Application.FutureCancelMain" />
-        <item itemvalue="Application.SumTaskMainV2_Bad" />
       </list>
     </recent_temporary>
   </component>
@@ -265,14 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730381762106</updated>
-    </task>
-    <task id="LOCAL-00015" summary="interrupt study">
-      <option name="closed" value="true" />
-      <created>1730971594347</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1730971594347</updated>
     </task>
     <task id="LOCAL-00016" summary="interrupt study">
       <option name="closed" value="true" />
@@ -658,7 +654,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732267458243</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="future study">
+      <option name="closed" value="true" />
+      <created>1732267780155</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1732267780155</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
