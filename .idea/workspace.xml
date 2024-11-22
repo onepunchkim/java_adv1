@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="future study">
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/FutureExceptionMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/CallableTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +136,7 @@
       <recent name="thread.sync.lock" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FutureExceptionMain">
+  <component name="RunManager" selected="Application.InvokeAllMain">
     <configuration name="FutureCancelMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.executor.future.FutureCancelMain" />
       <module name="java-adv1" />
@@ -164,8 +163,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.executor.future.RunnableMain" />
+    <configuration name="InvokeAllMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.future.InvokeAllMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
@@ -203,8 +202,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumTaskMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.executor.future.SumTaskMainV1" />
+    <configuration name="RunnableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.future.RunnableMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
@@ -244,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InvokeAllMain" />
         <item itemvalue="Application.FutureExceptionMain" />
         <item itemvalue="Application.FutureCancelMain" />
         <item itemvalue="Application.SumTaskMainV2_Bad" />
         <item itemvalue="Application.SumTaskMainV2" />
-        <item itemvalue="Application.SumTaskMainV1" />
       </list>
     </recent_temporary>
   </component>
@@ -267,14 +266,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730381762106</updated>
-    </task>
-    <task id="LOCAL-00013" summary="thread study">
-      <option name="closed" value="true" />
-      <created>1730885028437</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1730885028437</updated>
     </task>
     <task id="LOCAL-00014" summary="interrupt study">
       <option name="closed" value="true" />
@@ -660,7 +651,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732182875548</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="future study">
+      <option name="closed" value="true" />
+      <created>1732266874720</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1732266874721</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
