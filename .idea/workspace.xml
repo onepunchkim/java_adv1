@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="future study">
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/test/NewOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/test/OldOrderServiceTestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/ExecutorShutdownMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/executor/test/OldOrderServiceMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/executor/test/NewOrderServiceTestMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +48,7 @@
     "Application.CheckedExceptionMain.executor": "Run",
     "Application.DaemonThreadMain.executor": "Run",
     "Application.ExecutorBasicMain.executor": "Run",
+    "Application.ExecutorShutdownMain.executor": "Run",
     "Application.FutureCancelMain.executor": "Run",
     "Application.FutureExceptionMain.executor": "Run",
     "Application.HelloRunnableMain.executor": "Run",
@@ -142,13 +141,13 @@
       <recent name="thread.sync" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OldOrderServiceTestMain">
-    <configuration name="FutureCancelMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.executor.future.FutureCancelMain" />
+  <component name="RunManager" selected="Application.ExecutorShutdownMain">
+    <configuration name="ExecutorShutdownMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.ExecutorShutdownMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.executor.future.*" />
+          <option name="PATTERN" value="thread.executor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,26 +233,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.executor.future.RunnableMain" />
-      <module name="java-adv1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.executor.future.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExecutorShutdownMain" />
         <item itemvalue="Application.OldOrderServiceTestMain" />
         <item itemvalue="Application.InvokeAnyMain" />
         <item itemvalue="Application.InvokeAllMain" />
         <item itemvalue="Application.FutureExceptionMain" />
-        <item itemvalue="Application.FutureCancelMain" />
       </list>
     </recent_temporary>
   </component>
@@ -272,14 +258,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730381762106</updated>
-    </task>
-    <task id="LOCAL-00017" summary="thread study">
-      <option name="closed" value="true" />
-      <created>1731053060395</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1731053060395</updated>
     </task>
     <task id="LOCAL-00018" summary="interrupt study">
       <option name="closed" value="true" />
@@ -665,7 +643,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732268500069</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="future study">
+      <option name="closed" value="true" />
+      <created>1732269021059</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1732269021059</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
