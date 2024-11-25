@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="future study">
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/poolsize/PoolSizeMainV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="future study" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,7 +135,7 @@
       <recent name="thread.sync.lock" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PoolSizeMainV2">
+  <component name="RunManager" selected="Application.PoolSizeMainV3">
     <configuration name="FutureCancelMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.executor.future.FutureCancelMain" />
       <module name="java-adv1" />
@@ -154,6 +151,19 @@
     </configuration>
     <configuration name="PoolSizeMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.executor.poolsize.PoolSizeMainV2" />
+      <module name="java-adv1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.executor.poolsize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PoolSizeMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.poolsize.PoolSizeMainV3" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
@@ -204,19 +214,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumTaskMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.executor.future.SumTaskMainV1" />
-      <module name="java-adv1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.executor.future.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SumTaskMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.executor.future.SumTaskMainV2" />
       <module name="java-adv1" />
@@ -245,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PoolSizeMainV3" />
         <item itemvalue="Application.PoolSizeMainV2" />
         <item itemvalue="Application.FutureCancelMain" />
         <item itemvalue="Application.SumTaskMainV2_Bad" />
         <item itemvalue="Application.SumTaskMainV2" />
-        <item itemvalue="Application.SumTaskMainV1" />
       </list>
     </recent_temporary>
   </component>
@@ -268,14 +265,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730381762106</updated>
-    </task>
-    <task id="LOCAL-00012" summary="thread study">
-      <option name="closed" value="true" />
-      <created>1730884498666</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1730884498666</updated>
     </task>
     <task id="LOCAL-00013" summary="thread study">
       <option name="closed" value="true" />
@@ -661,7 +650,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732181426503</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="future study">
+      <option name="closed" value="true" />
+      <created>1732524311311</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1732524311312</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
