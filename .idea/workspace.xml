@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="future study">
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/reject/RejectMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/reject/RejectMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/reject/RejectMainV3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="future study" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,20 +143,7 @@
       <recent name="thread.bounded" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RejectMainV3">
-    <configuration name="PoolSizeMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.executor.poolsize.PoolSizeMainV3" />
-      <module name="java-adv1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.executor.poolsize.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RejectMainV4">
     <configuration name="PoolSizeMainV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.executor.poolsize.PoolSizeMainV4" />
       <module name="java-adv1" />
@@ -214,6 +196,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RejectMainV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.reject.RejectMainV4" />
+      <module name="java-adv1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.executor.reject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunnableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.executor.future.RunnableMain" />
       <module name="java-adv1" />
@@ -255,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RejectMainV4" />
         <item itemvalue="Application.RejectMainV3" />
         <item itemvalue="Application.RejectMainV2" />
         <item itemvalue="Application.RejectMainV1" />
         <item itemvalue="Application.PoolSizeMainV4" />
-        <item itemvalue="Application.PoolSizeMainV3" />
       </list>
     </recent_temporary>
   </component>
@@ -278,14 +273,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730381762106</updated>
-    </task>
-    <task id="LOCAL-00015" summary="interrupt study">
-      <option name="closed" value="true" />
-      <created>1730971594347</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1730971594347</updated>
     </task>
     <task id="LOCAL-00016" summary="interrupt study">
       <option name="closed" value="true" />
@@ -671,7 +658,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732526580729</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="future study">
+      <option name="closed" value="true" />
+      <created>1732529964315</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1732529964315</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
