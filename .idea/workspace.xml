@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="future study" />
+    <list default="true" id="d4c478b6-0963-4e67-84ee-a532f15a7501" name="Changes" comment="future study">
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/poolsize/PoolSizeMainV4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,6 +78,8 @@
     "Application.MyPrinterV3.executor": "Run",
     "Application.MyPrinterV4.executor": "Run",
     "Application.PoolSizeMainV2.executor": "Run",
+    "Application.PoolSizeMainV3.executor": "Run",
+    "Application.PoolSizeMainV4.executor": "Run",
     "Application.RunnableMain (1).executor": "Run",
     "Application.RunnableMain (2).executor": "Run",
     "Application.RunnableMain (3).executor": "Run",
@@ -128,14 +133,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="thread.executor.poolsize" />
       <recent name="thread.executor.future" />
       <recent name="thread.collection.simple.list" />
       <recent name="thread.bounded" />
       <recent name="thread.sync" />
-      <recent name="thread.sync.lock" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PoolSizeMainV3">
+  <component name="RunManager" selected="Application.PoolSizeMainV4">
     <configuration name="FutureCancelMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.executor.future.FutureCancelMain" />
       <module name="java-adv1" />
@@ -175,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.executor.future.RunnableMain" />
+    <configuration name="PoolSizeMainV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.poolsize.PoolSizeMainV4" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.executor.future.*" />
+          <option name="PATTERN" value="thread.executor.poolsize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,8 +219,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumTaskMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.executor.future.SumTaskMainV2" />
+    <configuration name="RunnableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.future.RunnableMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
@@ -242,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PoolSizeMainV4" />
         <item itemvalue="Application.PoolSizeMainV3" />
         <item itemvalue="Application.PoolSizeMainV2" />
         <item itemvalue="Application.FutureCancelMain" />
         <item itemvalue="Application.SumTaskMainV2_Bad" />
-        <item itemvalue="Application.SumTaskMainV2" />
       </list>
     </recent_temporary>
   </component>
@@ -265,14 +270,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730381762106</updated>
-    </task>
-    <task id="LOCAL-00013" summary="thread study">
-      <option name="closed" value="true" />
-      <created>1730885028437</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1730885028437</updated>
     </task>
     <task id="LOCAL-00014" summary="interrupt study">
       <option name="closed" value="true" />
@@ -658,7 +655,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732524311312</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="future study">
+      <option name="closed" value="true" />
+      <created>1732524897398</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1732524897398</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
